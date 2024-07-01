@@ -1,0 +1,125 @@
+object		{1}
+	feed		{9}
+id	:	https://api.weather.gov/alerts.atom?region_type=land&limit=500&active=1
+generator	:	NWS CAP Server
+updated	:	2024-06-30T22:13:05+00:00
+	author		{1}
+name	:	w-nws.webmaster@noaa.gov
+title	:	Current watches, warnings, and advisories for United States land zones
+	link		{2}
+_rel	:	self
+_href	:	https://api.weather.gov/alerts.atom?region_type=land&limit=500&active=1
+	entry		[328]
+	0		{22}
+id	:	https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d9bbc7ec972cc5d2c37729f1abdca4bed4ef579.001.1
+	link		{2}
+updated	:	2024-06-30T15:09:00-07:00
+published	:	2024-06-30T15:09:00-07:00
+	author		{1}
+title	:	Severe Thunderstorm Warning issued June 30 at 3:09PM MST until June 30 at 3:30PM MST by NWS Tucson AZ
+summary	:	At 309 PM MST, a severe thunderstorm was located 7 miles south of\nPatagonia, or 14 miles northeast of Nogales, moving northwest at 10\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nLochiel.\n\nThis includes Route 82 between mile markers 10 and 13.
+	event		{2}
+__prefix	:	cap
+__text	:	Severe Thunderstorm Warning
+	sent		{2}
+__prefix	:	cap
+__text	:	2024-06-30T15:09:00-07:00
+	effective		{2}
+__prefix	:	cap
+__text	:	2024-06-30T15:09:00-07:00
+	onset		{2}
+__prefix	:	cap
+__text	:	2024-06-30T15:09:00-07:00
+	expires		{2}
+__prefix	:	cap
+__text	:	2024-06-30T15:30:00-07:00
+	status		{2}
+__prefix	:	cap
+__text	:	Actual
+	msgType		{2}
+__prefix	:	cap
+__text	:	Update
+	category		{2}
+__prefix	:	cap
+__text	:	Met
+	urgency		{2}
+__prefix	:	cap
+__text	:	Immediate
+	severity		{2}
+__prefix	:	cap
+__text	:	Severe
+	certainty		{2}
+__prefix	:	cap
+__text	:	Observed
+	areaDesc		{2}
+__prefix	:	cap
+__text	:	Santa Cruz, AZ
+	polygon		{2}
+__prefix	:	cap
+__text	:	31.47,-110.88 31.56,-110.58 31.33,-110.54 31.33,-110.75 31.47,-110.88
+	geocode		[2]
+	0		{3}
+valueName	:	SAME
+value	:	004023
+__prefix	:	cap
+	1		{3}
+valueName	:	UGC
+value	:	AZC023
+__prefix	:	cap
+	parameter		[14]
+	0		{3}
+valueName	:	AWIPSidentifier
+value	:	SVSTWC
+__prefix	:	cap
+	1		{3}
+valueName	:	WMOidentifier
+value	:	WWUS55 KTWC 302209
+__prefix	:	cap
+	2		{3}
+valueName	:	NWSheadline
+value	:	A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 330 PM MST FOR SOUTHEASTERN SANTA CRUZ COUNTY
+__prefix	:	cap
+	3		{3}
+valueName	:	eventMotionDescription
+value	:	2024-06-30T22:09:00-00:00...storm...143DEG...9KT...31.44,-110.71
+__prefix	:	cap
+	4		{3}
+valueName	:	windThreat
+value	:	RADAR INDICATED
+__prefix	:	cap
+	5		{3}
+valueName	:	maxWindGust
+value	:	60 MPH
+__prefix	:	cap
+	6		{3}
+valueName	:	hailThreat
+value	:	RADAR INDICATED
+__prefix	:	cap
+	7		{3}
+valueName	:	maxHailSize
+value	:	1.00
+__prefix	:	cap
+	8		{3}
+valueName	:	BLOCKCHANNEL
+value	:	EAS
+__prefix	:	cap
+	9		{3}
+valueName	:	BLOCKCHANNEL
+value	:	NWEM
+__prefix	:	cap
+	10		{3}
+valueName	:	BLOCKCHANNEL
+value	:	CMAS
+__prefix	:	cap
+	11		{3}
+valueName	:	EAS-ORG
+value	:	WXR
+__prefix	:	cap
+	12		{3}
+valueName	:	VTEC
+value	:	/O.CON.KTWC.SV.W.0028.000000T0000Z-240630T2230Z/
+__prefix	:	cap
+	13		{3}
+valueName	:	eventEndingTime
+value	:	2024-06-30T22:30:00+00:00
+__prefix	:	cap
